@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main-container 
+{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    
+}
+
+.profile_name
+{
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+

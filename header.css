@@ -1,0 +1,33 @@
+.header
+{
+    width: 100%;
+}
+
+.header_img
+{
+    width: 50px;
+}
+
+.header_inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    flex-wrap: wrap;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.nav_link
+{
+    color: black;
+    text-decoration: none;
+
+}
