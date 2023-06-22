@@ -39,28 +39,21 @@
     
     ?>
 
-    <main class="main">
+   <main class="main">
         <div class="main-container">
             <div class="profile">
-                <div class="profile_img">
-                    <img class="pfp" src="<?php echo $pfp; ?>" alt="Profile Picture">  
-                </div>
                 <div class="profile_name">
                     <div class="familia">
-                        <h2>Фамилия</h2>
+                        <h3>Фамилия</h3>
                         <?php echo $lname ?>
-
-                    </div> 
-                    <div class="name">
-                        <h2>Имя</h2>
+                        <h3>Имя</h3> 
                         <?php echo $fname ?>
-
-
-                    </div>
-                    <div class="ot">
-                        <h2>Отчество</h2>
+                        <h3>Отчество</h3>
                         <?php echo $otch ?>
-
+                        <button class="but" onclick="window.location.replace('auth.php?out=1')">Выйти</button>
+                    </div>
+                    <div class="profile_img">
+                        <img class="pfp" src="<?php echo $pfp; ?>" alt="Profile Picture">  
                     </div>
                        
                 </div>
