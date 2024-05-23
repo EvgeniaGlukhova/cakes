@@ -18,12 +18,15 @@
             <div class="header_logo">
                 <img src="img/кусок.png" class="header_img">
             </div>
-            <nav class="nav">
-                <a class="nav_link" href="#">Каталог</a>
-                <a class="nav_link" href="index.php">Главная</a>
-                <a class="nav_link" href="register.php">Регистрация</a>
+            <nav class="nav"  >
+                <li><a class="nav_link" href="index.php?page=main">Главная</a></li>
+                <li><a class="nav_link" href="index.php?page=register">Регистрация</a></li>
             </nav>
             <a class="nav_link" href="<?php echo $link ?>"><?php echo $text ?></a>
         </div>
     </div>
+    
+    
+
 </header>
+
